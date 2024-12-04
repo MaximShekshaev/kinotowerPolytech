@@ -23,11 +23,11 @@
     </div>
   </main>
 
-<!--  <footer class="footer mt-auto py-3 bg-body-tertiary fixed-bottom">-->
-<!--    <div class="container">-->
-<!--      <span class="text-body-secondary">&copy;Kino-Tower-2024</span>-->
-<!--    </div>-->
-<!--  </footer>-->
+  <footer class="footer mt-auto py-2 bg-body-tertiary fixed-bottom">
+    <div class="container">
+      <span class="text-body-secondary">&copy;Kino-Tower-2024</span>
+    </div>
+  </footer>
 
 
 
