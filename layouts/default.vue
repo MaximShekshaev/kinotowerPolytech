@@ -14,7 +14,7 @@
           <button @click="$router.push('/signup')" class="btn btn-outline-danger" type="submit">Sign up</button>
           </template>
           <template v-else>
-            <button @click="logout" class="btn btn-outline-danger" type="submit">sign out</button>
+            <button @click="logout" class="btn btn-outline-danger" type="submit">Log out</button>
           </template>
         </div>
       </div>
@@ -27,7 +27,7 @@
     </div>
   </main>
 
-  <footer class="footer mt-auto py-2 bg-body-tertiary fixed-bottom">
+  <footer class="footer mt-auto py-0.5 bg-body-tertiary fixed-bottom">
     <div class="container">
       <span class="text-body-secondary">&copy;Kino-Tower-2024</span>
     </div>

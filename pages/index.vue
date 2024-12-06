@@ -83,7 +83,7 @@ filmStore.fetchFilms();
 
         </div>
         <div class="d-grid gap-2 col-6 mx-auto">
-          <button class="btn btn-outline-success my-4" type="submit">смотреть</button>
+          <button @click="$router.push('/film/' + film.id)" class="btn btn-outline-success my-4" type="submit">Смотреть</button>
         </div>
       </div>
     </div>
