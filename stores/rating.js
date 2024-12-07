@@ -37,11 +37,21 @@ const addRating = async (rating) => {
 }
 
 
+const removeRating = async (id) => {
+    await api.delete(`/users/${authStore.authData.id}/ratings/${id}`,{
+        headers:{
+            Authorization: `Bearer ${authStore.authData.token}`,
+        }
+    });
+    await fetchRatingsByUserId();
+}
+
 return {
     ratings,
     authStore,
     addRating,
     fetchRatingsByUserId,
     getRatingsByUserId,
+    removeRating,
 }
 })

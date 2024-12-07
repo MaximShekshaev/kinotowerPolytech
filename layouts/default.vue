@@ -14,6 +14,7 @@
           <button @click="$router.push('/signup')" class="btn btn-outline-danger" type="submit">Sign up</button>
           </template>
           <template v-else>
+            <button @click="$router.push('/editprofile')" class="btn btn-outline-success me-3" type="submit">User</button>
             <button @click="logout" class="btn btn-outline-danger" type="submit">Log out</button>
           </template>
         </div>
